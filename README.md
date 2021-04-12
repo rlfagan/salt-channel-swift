@@ -4,6 +4,7 @@ SaltChannel Swift
 [![Build Status](https://travis-ci.org/assaabloy-ppi/salt-channel-swift.svg?branch=master)](https://travis-ci.org/assaabloy-ppi/salt-channel-swift)
 [![Codebeat Quality](https://codebeat.co/badges/82efe8db-c3e8-4817-b263-032199150179)](https://codebeat.co/projects/github-com-assaabloy-ppi-salt-channel-swift-master)
 [![Code Coverage](https://codecov.io/gh/assaabloy-ppi/salt-channel-swift/branch/master/graph/badge.svg)](https://codecov.io/gh/assaabloy-ppi/salt-channel-swift)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fsalt-channel-swift.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fsalt-channel-swift?ref=badge_shield)
 
 Salt Channel version 2 implemented in Swift. To be used for iOS, MacOS and Linux projects. Read more about [Salt Channel](https://github.com/assaabloy-ppi/salt-channel)
 
@@ -128,3 +129,7 @@ protocol Host: Peer {
     func readA1(data: Data) throws -> (time: TimeInterval, message: Data)
 }
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fsalt-channel-swift.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fsalt-channel-swift?ref=badge_large)
